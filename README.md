@@ -13,29 +13,36 @@ The following **required** functionality is completed:
 - [x] User can log in. (1pt)
 - [x] User can take a photo, add a caption, and post it to the server. (3pt)
 - [x] User can view the last 20 posts. (4pts)
+- [x] User stays logged in across restarts. (1pt)
+- [x] User can log out. (1pt)
+- [x] User can view comments on a post. (3pts)
+- [ ] User can add a new comment. (5pts)
 
 ## Bonus
 
 The following **bonus** features are implemented:
 
 - [x] User can pull to refresh. (1pt)
-- [ ] User can load past tweets infinitely. (2pts)
+- [x] User can load past tweets infinitely. (2pts)
+- [ ] User can add a profile picture. (2pts)
+- [ ] Profile pictures are shown for posts and comments. (2pts)
 
 ## Additional
 
 The following **additional** features are implemented:
 - [x] User password entry is protected.
+- [x] Tab Bar Navigation added.
 
 ## APP Walkthrough GIF
 
 Here's a walkthrough of implemented user stories:
 
-<img src='https://recordit.co/8TTBRFCceQ.gif' width=250>
+<img src='https://recordit.co/XBD7C26hlt.gif' width=250>
 
-GIF created with [RecordIt](https://recordit.co/8TTBRFCceQ.gif).
+GIF created with [RecordIt](https://recordit.co/XBD7C26hlt.gif).
 
 ### Notes
-No challenges met with this app.
+I tried to make the app look as close to Instagram, but I made some 'styling' mistakes that did not allow me to finish 'posting comments'. I think it is an easy fix... Profile photos have not been added, there is a profile page that needs to be completed, code is set for displaying for posts... not yet for comments. Look forward to continuing work throughout the next week to complete the project and add more bells and whistles.
 
 ### License
 
