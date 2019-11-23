@@ -30,9 +30,9 @@ The following **additional** features are implemented:
 
 Here's a walkthrough of implemented user stories:
 
-<img src='https://recordit.co/ue4E0j41ca.gif' width=250>
+<img src='https://recordit.co/8TTBRFCceQ.gif' width=250>
 
-GIF created with [RecordIt](https://recordit.co/ue4E0j41ca.gif).
+GIF created with [RecordIt](https://recordit.co/8TTBRFCceQ.gif).
 
 ### Notes
 No challenges met with this app.
