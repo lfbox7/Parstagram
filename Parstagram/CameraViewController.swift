@@ -29,6 +29,7 @@ class CameraViewController: UIViewController, UIImagePickerControllerDelegate, U
         
         post["image"] = file
         post["caption"] = commentField.text!
+        //post["hastag"] = hashtagField.text!
         post["author"] = PFUser.current()!
         
         post.saveInBackground{ (success, error) in

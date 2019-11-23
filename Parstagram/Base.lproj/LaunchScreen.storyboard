@@ -15,16 +15,28 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="instagram_logo" translatesAutoresizingMaskIntoConstraints="NO" id="aMc-oM-UU5">
-                                <rect key="frame" x="18" y="357" width="379" height="183"/>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="instagram_logo" adjustsImageSizeForAccessibilityContentSizeCategory="YES" translatesAutoresizingMaskIntoConstraints="NO" id="FiS-qa-QIr">
+                                <rect key="frame" x="26" y="378" width="362" height="140"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="140" id="1hk-NA-PCZ"/>
+                                    <constraint firstAttribute="height" constant="140" id="um2-3S-Z8a"/>
+                                </constraints>
                             </imageView>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <constraints>
-                            <constraint firstItem="aMc-oM-UU5" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="d2K-W4-xA2"/>
-                            <constraint firstItem="aMc-oM-UU5" firstAttribute="centerY" secondItem="6Tk-OE-BBY" secondAttribute="centerY" id="paO-IS-xWr"/>
+                            <constraint firstItem="FiS-qa-QIr" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="5Ko-mp-7Rb"/>
+                            <constraint firstItem="FiS-qa-QIr" firstAttribute="centerY" secondItem="6Tk-OE-BBY" secondAttribute="centerY" id="EbR-iX-qdq"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" relation="greaterThanOrEqual" secondItem="FiS-qa-QIr" secondAttribute="bottom" constant="339" id="LYR-An-gKO"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="FiS-qa-QIr" secondAttribute="trailing" constant="79.5" id="Lve-EY-g5w"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="FiS-qa-QIr" secondAttribute="trailing" constant="26" id="kDX-Pe-Odl"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <variation key="default">
+                            <mask key="constraints">
+                                <exclude reference="Lve-EY-g5w"/>
+                            </mask>
+                        </variation>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>

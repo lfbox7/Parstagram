@@ -19,7 +19,11 @@
 		B89535302377375D001BC585 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B895352E2377375D001BC585 /* LaunchScreen.storyboard */; };
 		B895353B2377375D001BC585 /* ParstagramTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B895353A2377375D001BC585 /* ParstagramTests.swift */; };
 		B89535462377375D001BC585 /* ParstagramUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B89535452377375D001BC585 /* ParstagramUITests.swift */; };
+		B8B09A462388D66800EA44B5 /* CommentCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8B09A452388D66700EA44B5 /* CommentCell.swift */; };
 		B8B3A369237F9B6B003EE9E4 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = B8B3A368237F9B6B003EE9E4 /* README.md */; };
+		B8B3A36B23831F53003EE9E4 /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8B3A36A23831F53003EE9E4 /* SearchViewController.swift */; };
+		B8B3A36D23831F84003EE9E4 /* ActivityViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8B3A36C23831F84003EE9E4 /* ActivityViewController.swift */; };
+		B8B3A36F23831FC0003EE9E4 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8B3A36E23831FC0003EE9E4 /* ProfileViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -60,7 +64,11 @@
 		B89535412377375D001BC585 /* ParstagramUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ParstagramUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B89535452377375D001BC585 /* ParstagramUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParstagramUITests.swift; sourceTree = "<group>"; };
 		B89535472377375D001BC585 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B8B09A452388D66700EA44B5 /* CommentCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommentCell.swift; sourceTree = "<group>"; };
 		B8B3A368237F9B6B003EE9E4 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		B8B3A36A23831F53003EE9E4 /* SearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
+		B8B3A36C23831F84003EE9E4 /* ActivityViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityViewController.swift; sourceTree = "<group>"; };
+		B8B3A36E23831FC0003EE9E4 /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -134,10 +142,14 @@
 			children = (
 				B89535232377375B001BC585 /* AppDelegate.swift */,
 				B87B23C8237F8BA3003F6D79 /* PostCell.swift */,
+				B8B3A36A23831F53003EE9E4 /* SearchViewController.swift */,
 				B87B23C0237F6C95003F6D79 /* LoginViewController.swift */,
 				B87B23C2237F6CC3003F6D79 /* FeedViewController.swift */,
+				B8B09A452388D66700EA44B5 /* CommentCell.swift */,
 				B89535252377375B001BC585 /* SceneDelegate.swift */,
 				B89535292377375B001BC585 /* Main.storyboard */,
+				B8B3A36E23831FC0003EE9E4 /* ProfileViewController.swift */,
+				B8B3A36C23831F84003EE9E4 /* ActivityViewController.swift */,
 				B87B23C4237F784E003F6D79 /* CameraViewController.swift */,
 				B895352C2377375D001BC585 /* Assets.xcassets */,
 				B895352E2377375D001BC585 /* LaunchScreen.storyboard */,
@@ -340,11 +352,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B8B09A462388D66800EA44B5 /* CommentCell.swift in Sources */,
 				B87B23C1237F6C95003F6D79 /* LoginViewController.swift in Sources */,
+				B8B3A36B23831F53003EE9E4 /* SearchViewController.swift in Sources */,
 				B87B23C5237F784E003F6D79 /* CameraViewController.swift in Sources */,
 				B89535242377375B001BC585 /* AppDelegate.swift in Sources */,
 				B87B23C3237F6CC3003F6D79 /* FeedViewController.swift in Sources */,
 				B89535262377375B001BC585 /* SceneDelegate.swift in Sources */,
+				B8B3A36F23831FC0003EE9E4 /* ProfileViewController.swift in Sources */,
+				B8B3A36D23831F84003EE9E4 /* ActivityViewController.swift in Sources */,
 				B87B23C9237F8BA3003F6D79 /* PostCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
